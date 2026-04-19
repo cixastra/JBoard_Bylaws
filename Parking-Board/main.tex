@@ -20,9 +20,9 @@
 \usepackage{enumitem}
 \usepackage{footmisc}
 
-\definecolor{RPIBlack}{HTML}{000000}
-\definecolor{RPIWhite}{HTML}{FFFFFF}
-\definecolor{RPIRed}{HTML}{D6001C}
+\definecolor{UnionBlack}{HTML}{000000}
+\definecolor{UnionWhite}{HTML}{FFFFFF}
+\definecolor{UnionRed}{HTML}{D6001C}
 
 \defaultfontfeatures{Ligatures=TeX}
 \setmainfont[
@@ -34,7 +34,7 @@
   BoldItalicFont=RPIGeist-BoldItalic,
 ]{RPIGeist-Regular}
 
-\color{RPIBlack}
+\color{UnionBlack}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \pagestyle{fancy}
@@ -45,21 +45,21 @@
 
 \hypersetup{
   colorlinks=true,
-  linkcolor=RPIRed,
-  urlcolor=RPIRed,
-  citecolor=RPIRed,
+  linkcolor=UnionRed,
+  urlcolor=UnionRed,
+  citecolor=UnionRed,
   pdfborder={0 0 0},
-  pdftitle={RPI Institute Hearing Procedure},
+  pdftitle={Parking Board Bylaws},
 }
 
 \svgpath{{../}}
 
 \renewcommand{\contentsname}{Contents}
 \setcounter{tocdepth}{1}
-\renewcommand{\cfttoctitlefont}{\hfill\fontsize{14pt}{16pt}\selectfont\bfseries\color{RPIBlack}}
+\renewcommand{\cfttoctitlefont}{\hfill\fontsize{14pt}{16pt}\selectfont\bfseries\color{UnionBlack}}
 \renewcommand{\cftaftertoctitle}{\hfill}
-\renewcommand{\cftsecfont}{\color{RPIBlack}}
-\renewcommand{\cftsecpagefont}{\color{RPIBlack}}
+\renewcommand{\cftsecfont}{\color{UnionBlack}}
+\renewcommand{\cftsecpagefont}{\color{UnionBlack}}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 \setlength{\cftbeforesecskip}{0.25em}
 
@@ -67,11 +67,9 @@
 \newcommand{\JBClauseGap}{0.55em}
 \newcommand{\SSClauseGap}{\JBClauseGap}
 \newcommand{\JBLogoWidth}{3.15in}
-\newcommand{\JBDisplayTitle}{Institute Hearing Procedures}
+\newcommand{\JBDisplayTitle}{The Bylaws of the Rensselaer Union Judicial Board Parking Board}
 \newcommand{\JBApprovalLineOne}{As approved by the Judicial Board XX-XX-XXXX}
-\newcommand{\JBApprovalLineTwo}{As approved by the President of the Institute XX-XX-XXXX}
-\newcommand{\JBApprovalLineThree}{As recognized by the Student Senate XX-XX-XXXX}
-\newcommand{\JBApprovalLineFour}{As recognized by the Faculty Senate XX-XX-XXXX}
+\newcommand{\JBApprovalLineTwo}{As approved by the Student Senate XX-XX-XXXX}
 
 % Easy command for laypersons: creates a superscript number + footnote
 \newcommand{\SSFootnote}[2]{%
@@ -90,8 +88,8 @@
 
 \newcommand{\JBPanel}[1]{%
   \begin{tcolorbox}[
-    colback=RPIWhite,
-    colframe=RPIRed,
+    colback=UnionWhite,
+    colframe=UnionRed,
     boxrule=0.8pt,
     arc=2mm,
     left=3mm,
@@ -122,45 +120,36 @@
 \JBBodyFont
 
 \begin{center}
-  \includesvg[width=\JBLogoWidth]{RPI_Logo_Solid_Black}
+  \includesvg[width=\JBLogoWidth]{union_judicial_board}
 \end{center}
 \vspace{0.35cm}
 
 \begin{center}
-  {\fontsize{18pt}{21.6pt}\selectfont\bfseries\color{RPIBlack} \JBDisplayTitle\par}
+  {\fontsize{18pt}{21.6pt}\selectfont\bfseries\color{UnionBlack} \JBDisplayTitle\par}
 \end{center}
 \vspace{0.18cm}
 
 \begin{center}
-  {\fontsize{11pt}{13.2pt}\selectfont\color{RPIBlack} \JBApprovalLineOne\par}
+  {\fontsize{11pt}{13.2pt}\selectfont\color{UnionBlack} \JBApprovalLineOne\par}
 \end{center}
 \begin{center}
-  {\fontsize{11pt}{13.2pt}\selectfont\color{RPIBlack} \JBApprovalLineTwo\par}
-\end{center}
-\begin{center}
-  {\fontsize{11pt}{13.2pt}\selectfont\color{RPIBlack} \JBApprovalLineThree\par}
-\end{center}
-\begin{center}
-  {\fontsize{11pt}{13.2pt}\selectfont\color{RPIBlack} \JBApprovalLineFour\par}
+  {\fontsize{11pt}{13.2pt}\selectfont\color{UnionBlack} \JBApprovalLineTwo\par}
 \end{center}
 
 \vspace{0.8cm}
 
-\iffalse
-% This document does not need table of contents, so it is not rendered.
-    \begin{tcolorbox}[
-      colback=RPIWhite,
-      colframe=RPIRed,
-      boxrule=0.8pt,
-      arc=2mm,
-      left=4mm,
-      right=4mm,
-      top=3mm,
-      bottom=3mm,
-    ]
-      \tableofcontents
-    \end{tcolorbox}
-\fi
+\begin{tcolorbox}[
+  colback=UnionWhite,
+  colframe=UnionRed,
+  boxrule=0.8pt,
+  arc=2mm,
+  left=4mm,
+  right=4mm,
+  top=3mm,
+  bottom=3mm,
+]
+  \tableofcontents
+\end{tcolorbox}
 
 \clearpage
 
