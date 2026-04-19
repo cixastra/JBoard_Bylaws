@@ -1,6 +1,6 @@
 %% Creator: Inkscape 1.4.3 (0d15f75, 2025-12-25), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'union_judicial_board_svg-tex.pdf' (pdf, eps, ps)
+%% Accompanies image file 'RPI_Logo_Solid_Black_svg-tex.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -53,6 +53,6 @@
   \begin{picture}(1,0.4026762)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{union_judicial_board_svg-tex.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{RPI_Logo_Solid_Black_svg-tex.pdf}}%
   \end{picture}%
 \endgroup%
